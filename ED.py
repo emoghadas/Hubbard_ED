@@ -195,8 +195,8 @@ def get_hamiltonian(block, nsites, u, t):
 def main():
     u = 3.
     t = 1.
-    nsites = 2
-    block = (1,1)
+    nsites = 6
+    block = (nsites//2, nsites//2)
 
     # create hamiltonian and print eigenvalues
     H = get_hamiltonian(block, nsites, u, t)
